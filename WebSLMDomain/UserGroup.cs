@@ -11,7 +11,7 @@ namespace WebSLMDomain
         public int UserGroupID { get; set; }
         public string Description { get; set; }
 
-        public ICollection<UserProfile> UserProfiles;
+        //public ICollection<UserProfile> UserProfiles();
 
 
 
