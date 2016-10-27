@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSLMLoans", "WebSLMLoans\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSLMDomain", "WebSLMDomain\WebSLMDomain.csproj", "{22852694-0208-4ECF-BC5E-5C64585FF7D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSLMDatabase", "ClassLibrary1\WebSLMDatabase.csproj", "{D0748E66-6853-4064-9254-A578D7419256}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSLMDatabase", "WebSLMDatabase\WebSLMDatabase.csproj", "{52A6DCE8-F6FC-4A30-90F8-A1138AA53BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{22852694-0208-4ECF-BC5E-5C64585FF7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22852694-0208-4ECF-BC5E-5C64585FF7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22852694-0208-4ECF-BC5E-5C64585FF7D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0748E66-6853-4064-9254-A578D7419256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0748E66-6853-4064-9254-A578D7419256}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0748E66-6853-4064-9254-A578D7419256}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0748E66-6853-4064-9254-A578D7419256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A6DCE8-F6FC-4A30-90F8-A1138AA53BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A6DCE8-F6FC-4A30-90F8-A1138AA53BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A6DCE8-F6FC-4A30-90F8-A1138AA53BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A6DCE8-F6FC-4A30-90F8-A1138AA53BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
