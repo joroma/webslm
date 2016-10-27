@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebSLMMembership
 {
-    class MemberAddress
+    public class MemberAddress
     {
         public int AddresssID { get; set; }
         public int MemberID { get; set; }
