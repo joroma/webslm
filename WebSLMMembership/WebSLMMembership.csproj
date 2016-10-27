@@ -44,6 +44,12 @@
     <Compile Include="MembershipFee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebSLMDomain\WebSLMDomain.csproj">
+      <Project>{22852694-0208-4ecf-bc5e-5c64585ff7d6}</Project>
+      <Name>WebSLMDomain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -10,7 +10,7 @@ namespace WebSLMSavings
     {
         public int SavingsAccountID { get; set; }
         public int MemberID { get; set; }
-        public int SavingsAccountID { get; set; }
+        //public int SavingsAccountID { get; set; }
 
         public decimal CurrentBalance { get; set; }
 
