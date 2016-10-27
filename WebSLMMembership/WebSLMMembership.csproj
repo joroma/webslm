@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Member.cs" />
+    <Compile Include="MemberAddress.cs" />
     <Compile Include="MembershipFee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

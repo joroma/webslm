@@ -17,8 +17,13 @@ namespace WebSLMMembership
         public string Lastname { get; set; }
         public DateTime Birthdate { get; set; }
         public string MemberType { get; set; }
+        public bool IsApproved  { get; set; }
+        
+
+
 
         public ICollection<MembershipFee> MemFee { get; set; }
+        public ICollection<MemberAddress> MemberAddress { get; set; }
 
 
     }
