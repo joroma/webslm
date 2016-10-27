@@ -45,6 +45,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebSLMContext.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebSLMDomain\WebSLMDomain.csproj">
+      <Project>{22852694-0208-4ecf-bc5e-5c64585ff7d6}</Project>
+      <Name>WebSLMDomain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSLMLoans\WebSLMLoans.csproj">
+      <Project>{0bd4a5e9-abc0-43dd-af8f-29573936befa}</Project>
+      <Name>WebSLMLoans</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSLMMembership\WebSLMMembership.csproj">
+      <Project>{251bf2fd-bb7e-41d9-9b98-2fa4cf55744a}</Project>
+      <Name>WebSLMMembership</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSLMSavings\WebSLMSavings.csproj">
+      <Project>{57481f67-b11e-4290-9a1d-5f3560a8176a}</Project>
+      <Name>WebSLMSavings</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
