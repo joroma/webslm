@@ -1,16 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using WebSLMMembership;
+
 
 
 namespace WebSLMDatabase
 {
-    class WebSLMContext : DbContext
+    public class WebSLMContext : DbContext
     {
+
+        public WebSLMContext() : base("DefaultConnection")
+        {
+
+        }
+
+        public DbSet<Member> Members { get; set; }
+        public DbSet<MemberAddress> MemberAddresses { get; set; }
+
+        public System.Data.Entity.DbSet<WebSLMDomain.RecordLog> RecordLogs { get; set; }
 
 
     }
