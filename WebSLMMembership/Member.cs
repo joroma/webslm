@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebSLMDomain;
+
 
 namespace WebSLMMembership
 {
@@ -12,6 +10,7 @@ namespace WebSLMMembership
 
     public class Member
     {
+
         public int MemberID { get; set; }
         public virtual string Firstname { get; set; }
         public virtual string Middlename { get; set; }

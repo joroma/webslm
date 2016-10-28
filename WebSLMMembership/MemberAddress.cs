@@ -8,7 +8,7 @@ namespace WebSLMMembership
 {
     public class MemberAddress
     {
-        public int AddresssID { get; set; }
+        public int MemberAddressID { get; set; }
         public int MemberID { get; set; }
         public string AddressType { get; set; }
         public string Line1 { get; set; }
